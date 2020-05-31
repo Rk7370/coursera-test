@@ -1,0 +1,88 @@
+ *{
+    font-family: 'Balsamiq Sans', cursive;
+    box-sizing: border-box;
+  }
+  h1{
+    text-align: center;
+    font-size: 175%;
+  }
+  .parent{
+    float: left;
+    border: 1px solid black;
+    background-color: #999999;
+    text-align: justify;
+     margin: 2px 1px;
+
+  }
+   .parent3{
+    border: 1px solid black;
+    background-color: #999999;
+    text-align: justify;
+    float: left;
+     margin: 2px 1px;
+  }
+  .child1{
+      
+    float:right;
+    width: 140px;
+    height:30px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black; 
+    text-align: center;
+    font-size: 125%;
+    background-color: #D59898;
+    font-weight: bold;
+  }
+  .child2{
+    float:right;
+    width: 140px;
+    height:30px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black; 
+    text-align: center;
+    font-size: 125%;
+    background-color: #C14543;
+    font-weight: bold;
+  }
+  .child3{
+    float:right;
+    width: 140px;
+    height:30px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black; 
+    text-align: center;
+    font-size: 125%;
+    background-color: #E5D198;
+    font-weight: bold;
+  }
+  p{
+    margin-left:20px;
+    margin-right:20px;
+    margin-top: 40px;
+    }
+
+  @media (min-width: 992px){
+  .parent, .parent3{
+    width: 33%;
+    
+    
+  }
+  }
+  @media(min-width: 768px) and (max-width: 991px){
+      .container{
+          margin-left: 55px;
+      }
+    .parent{
+      width: 45%;
+      
+    }
+    .parent3{
+      width: 90.5%;
+    }
+  }
+  @media(max-width: 767px){
+    .parent, .parent3{
+      width:100%;
+      
+    }
+  }
